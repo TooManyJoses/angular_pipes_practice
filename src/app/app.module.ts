@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MilesToKMConvertPipe } from './miles-to-kmconvert.pipe';
+import { ConvertDistancePipe } from './convert-distance.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MilesToKMConvertPipe
+    ConvertDistancePipe
   ],
   imports: [
     BrowserModule
